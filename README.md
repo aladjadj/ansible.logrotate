@@ -34,6 +34,17 @@ Enable hourly rotation with cron.
 logrotate_use_hourly_rotation: false
 ```
 
+### logrotate_use_systemd_timer
+
+Enable systemd timer to trigger logrotate
+
+Activate by default for:
+ - Debian-10
+
+```yml
+logrotate_use_systemd_timer: false
+```
+
 ### logrotate options
 
 List of global options.

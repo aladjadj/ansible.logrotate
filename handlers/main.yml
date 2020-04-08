@@ -1,2 +1,6 @@
 ---
 # handlers file for arillso.logrotate
+- name: systemd_daemon_reload
+  become: true
+  systemd:
+    daemon_reload: yes

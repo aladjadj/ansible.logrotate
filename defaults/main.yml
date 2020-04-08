@@ -14,6 +14,9 @@ logrotate_package: logrotate
 # Enable hourly rotation with cron.
 logrotate_use_hourly_rotation: false
 
+# Enable systemd timer
+logrotate_use_systemd_timer: false
+
 # logroate for wtmp
 logrotate_wtmp:
   logs:
